@@ -20,11 +20,15 @@ data = {
 }
 df = pd.DataFrame(data).sort_values(by="Birthday")
 
-# --- 2. Current State ---
+# --- 2. Page Title ---
+st.set_page_config(
+    page_title="PlatSen Birthday Tracker")
+
+# --- 3. Current State ---
 if 'shared_date' not in st.session_state:
     st.session_state.shared_date = date.today()
 
-# --- 3. Sidebar ---
+# --- 4. Sidebar ---
 st.sidebar.title("Tracker Menu")
 page = st.sidebar.selectbox("Go to:", ["Birthday List", "About"])
 st.sidebar.divider()
@@ -32,7 +36,7 @@ search_query = st.sidebar.text_input("Search Name", "")
 show_balloons = st.sidebar.checkbox("Enable Animations", value=True)
 st.sidebar.caption("This allows balloons to pop up if the selected day is a birthday.")
 
-# --- 4. Birthday List Page ---
+# --- 5. Birthday List Page ---
 if page == "Birthday List":
     st.title("2026 Family Birthday Tracker")
 
