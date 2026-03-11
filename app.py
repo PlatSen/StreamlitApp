@@ -99,7 +99,7 @@ elif page == "About":
     st.title("About")
     st.divider()
 
-    st.write("The app displays a table containing **16** people (including me) and their birthdays. Data in the table is **hard coded** and **uneditable**. A progress bar that reflects how far along we are through 2026 and metrics showing how many birthdays there are, how many have passed, how many have yet to pass, and what date is currently selected can also be seen on the page. 
+    st.write("""The app displays a table containing **16** people (including me) and their birthdays. Data in the table is **hard coded** and **uneditable**. A progress bar that reflects how far along we are through 2026 and metrics showing how many birthdays there are, how many have passed, how many have yet to pass, and what date is currently selected can also be seen on the page. 
 
 This has been made for my own benefit to help me remember when my cousins’ and my girlfriend have their birthdays.
 
@@ -114,4 +114,5 @@ The **search query** rebuilds the table by only picking entries from the hardcod
 
 The **note** is from a note maker prompt that, when entered, makes a note at the bottom of the page that echoes the string submitted in the prompt.
 
-The **page choice** is used for determining which page you are on.")
+The **page choice** is used for determining which page you are on.""")
+
