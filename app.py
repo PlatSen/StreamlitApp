@@ -99,20 +99,21 @@ elif page == "About":
     st.title("About")
     st.divider()
 
-    st.write("""The app displays a table containing **16** people (including me) and their birthdays. Data in the table is **hard coded** and **uneditable**. A progress bar that reflects how far along we are through 2026 and metrics showing how many birthdays there are, how many have passed, how many have yet to pass, and what date is currently selected can also be seen on the page. 
+    st.write("""    The app displays a table containing **16** people (including me) and their birthdays. Data in the table is **hard coded** and **uneditable**. A progress bar that reflects how far along we are through 2026 and metrics showing how many birthdays there are, how many have passed, how many have yet to pass, and what date is currently selected can also be seen on the page. 
 
-This has been made for my own benefit to help me remember when my cousins’ and my girlfriend have their birthdays.
+    This has been made for my own benefit to help me remember when my cousins’ and my girlfriend have their birthdays.
 
-The inputs the app can collect include the **date chosen**, the **preferred input method**, a **search query**, a **note** and **page choice**.
+    The inputs the app can collect include the **date chosen**, the **preferred input method**, a **search query**, a **note** and **page choice**.
 
-Through the **date chosen**, the table can show us different statuses of all of the birthdays listed by color coding them accordingly. A legend in the form of an expander can be found on top of it showing how they are color coded. If the date picked is a birthday, a celebration happens showing balloons (which are toggleable through a tick box from the sidebar) and a note is sent to the top of the table showing who the celebration is for.
+    Through the **date chosen**, the table can show us different statuses of all of the birthdays listed by color coding them accordingly. A legend in the form of an expander can be found on top of it showing how they are color coded. If the date picked is a birthday, a celebration happens showing balloons (which are toggleable through a tick box from the sidebar) and a note is sent to the top of the table showing who the celebration is for.
 
-The **preferred input method** is what determines whether a **slider** or a **date picker** will be used in selecting a date to check.
+    The **preferred input method** is what determines whether a **slider** or a **date picker** will be used in selecting a date to check.
 
 
-The **search query** rebuilds the table by only picking entries from the hardcoded data that include the string entered from the search box. This makes the table only show those entries making a functioning search feature.
+    The **search query** rebuilds the table by only picking entries from the hardcoded data that include the string entered from the search box. This makes the table only show those entries making a functioning search feature.
 
-The **note** is from a note maker prompt that, when entered, makes a note at the bottom of the page that echoes the string submitted in the prompt.
+    The **note** is from a note maker prompt that, when entered, makes a note at the bottom of the page that echoes the string submitted in the prompt.
 
-The **page choice** is used for determining which page you are on.""")
+    The **page choice** is used for determining which page you are on.""")
+
 
